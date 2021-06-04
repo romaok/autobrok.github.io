@@ -35,12 +35,16 @@ body {
 	padding: 0;
 	height: 70px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center; 
 	font-size: 15px;
 	text-transform: uppercase;
 	color: #edeef0;
+}
 
+.logo {
+	filter: drop-shadow(0 0 10px #ffae00);
+	
 }
 
 .phone {
@@ -49,11 +53,21 @@ body {
 	text-decoration: none;
 }
 
-.header p {
-	color: #edeef0;
-	font-size: 25px;
-	text-decoration: none;
+.head-bottom {
+	margin: 0;
+	padding: 0;
 }
+
+.head-bottom h2{
+	margin: 0;
+	padding: 0;
+	padding-top: 50px;
+	text-align: center;
+	font-size: 35px;
+	text-transform: uppercase;
+	color: #a9a9a9;
+}
+
 
 
 
@@ -62,7 +76,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center; 
-	padding-top: 70px;
+	padding-top: 50px;
 	padding-bottom: 70px;
 }
 
@@ -215,10 +229,19 @@ body {
 	line-height: 35px;
 	text-align: center;
 	text-transform: uppercase;
-	border-bottom: 5px solid #ffae00; 
-	border-radius: 5px;
 	width: 350px;
 	margin: 50px auto 35px auto; 
+}
+
+.price-border {
+	border: 3px solid #ffae00;
+	border-radius: 10px;
+	box-shadow: 0 0 5px black;
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 400px;
+	margin-top: 50px;
 }
 
 
@@ -288,10 +311,10 @@ body {
 	line-height: 35px;
 	text-align: center;
 	text-transform: uppercase;
-	border-bottom: 5px solid #ffae00; 
-	border-radius: 5px;
+	text-decoration: underline;
 	width: 350px;
 	margin: 50px auto 35px auto; 
+	padding: 5px;
 }
 
 .faq dt {
@@ -364,4 +387,10 @@ body {
 	font-size: 12px;
 	border-top: 1px solid black;
 	background-color: #232732;
+}
+
+
+.footer-contact .phone {
+	display: block;
+	text-align: center;
 }
